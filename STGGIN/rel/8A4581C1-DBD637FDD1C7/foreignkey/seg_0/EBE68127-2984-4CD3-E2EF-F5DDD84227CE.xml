@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EBE68127-2984-4CD3-E2EF-F5DDD84227CE" containerWithKeyObject="E22D9D60-0CE2-3B15-EB5F-1169C8488F57" localFKIndex="A382A2D8-57D1-7A95-C6E2-0F3CB23BDB6A" name="TBL_EQUIPOS_TBL_LOCACION_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:32:00 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<referredTableLongName>TBL_LOCACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5289C6E4-E0AF-1CB7-BF89-DB23E98962CA</referredTableID>
+<keyObject>DB1EA89B-1950-73CB-227B-AC033B62C56E</keyObject>
+<referredKeyID>DB1EA89B-1950-73CB-227B-AC033B62C56E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_LOCALIZACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4318C24A-CD9D-A4F5-9664-FCE1A35D9258" name="TBL_DEPORTES">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:40:51 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DEPORTES" id="ADDEC653-9FB6-7F4D-1969-33D320DF7BC6">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:42:12 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_DEPORTE" id="83514938-D8E5-505E-365A-E317ECD23DCF">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:42:12 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA" id="82ADC73E-0E62-3F1E-49E8-B243ED6DC2F9">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:42:12 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B38F179E-2202-FB62-3DB3-C53A0453DD4C" name="TBL_DEPORTES_PK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:42:12 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADDEC653-9FB6-7F4D-1969-33D320DF7BC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

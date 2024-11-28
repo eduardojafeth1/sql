@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="38D39F16-7243-D08F-CA67-1B5833B3E683" containerWithKeyObject="B8DDEFDA-C6F3-E0CD-0448-929A80518381" localFKIndex="26632041-BB0E-44DA-F151-B9FD966B844E" name="TBL_EVENTOS_TBL_TIPO_EVENTO_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:12:39 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<referredTableLongName>TBL_TIPO_EVENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7EE2DE6A-0A0A-C1EA-D5B0-AEA842104B01</referredTableID>
+<keyObject>9FC80B17-D023-1C21-2A8A-A4B77284F9BD</keyObject>
+<referredKeyID>9FC80B17-D023-1C21-2A8A-A4B77284F9BD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

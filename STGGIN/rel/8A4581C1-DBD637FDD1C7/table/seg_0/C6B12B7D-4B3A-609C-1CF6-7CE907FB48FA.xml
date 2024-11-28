@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6B12B7D-4B3A-609C-1CF6-7CE907FB48FA" name="TBL_MODALIDADES_APUESTAS">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:49:05 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MODALIDADES_APUESTAS" id="17C460A8-11A2-789B-E8F5-9AA70D3689EE">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:50:18 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="C2A5808D-A70A-1E67-0EFC-650DD08BF505">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:50:18 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="3D9AE4B6-C694-A0EE-FDFA-B256CA2DE8C5">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:51:04 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13668094-A5A7-E4AE-48DD-5344FEB9F1F1" name="TBL_MODALIDADES_APUESTAS_PK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:51:04 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17C460A8-11A2-789B-E8F5-9AA70D3689EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

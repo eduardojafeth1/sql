@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7143F264-56B8-2249-29F2-692014599796" name="TBL_APUESTAS">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:15:27 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_APUESTA" id="74C33454-B427-886F-AEFE-12B3921D0AAB">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:19:41 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO" id="14D2F77A-9AEF-313D-3358-CE28B769E373">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:19:41 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APUESTA_TIPO" id="AB49F7FA-5A97-7275-55C7-2567F03BA032">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:19:41 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APUESTA_ID" id="1AEBA49F-F061-A1D7-21C3-508EDC12565C">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:19:41 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO" id="5C3BDB82-7919-8416-4A66-8BE874782EE2">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:19:56 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E9526E3-BCC5-4058-6B20-95D40E7306DA" referredColumn="8FD80D3F-23BF-371C-9638-16FCF7CA4FF8"/>
+</associations>
+</Column>
+<Column name="MODALIDAD" id="8A83C00E-064C-A7AB-7231-0EDD0F4ACB61">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:20:05 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="984F780F-BA13-F64C-CA97-254A6EA82126" referredColumn="17C460A8-11A2-789B-E8F5-9AA70D3689EE"/>
+</associations>
+</Column>
+<Column name="RESULTADO" id="15C8C2F9-06BF-0057-AC87-EE175DAEB4A7">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:20:40 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E622B77E-6D1C-6AF1-4C13-E0D405BCD787" referredColumn="96AB01C3-375A-21BE-A30B-CAA5396FAD67"/>
+</associations>
+</Column>
+<Column name="FECHA" id="A642C92C-EB55-8794-61DF-0341BD9A8C71">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:20:57 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B9CD567-51CC-F00F-89E5-AC4B62B5A6B1" referredColumn="FF2016C2-E2CD-0948-8902-D2B10756D2F5"/>
+</associations>
+</Column>
+<Column name="EVENTO" id="0688B6F2-AF82-73DF-45FD-77C15CFB269A">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:21:27 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="200AE9FC-3231-9038-7A3E-88CD0691EC7C" referredColumn="9F0A8C20-8EDD-3C6F-52A0-61A202258A0E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47A026E6-1F15-8134-D72F-C94FF7461B2E" name="TBL_APUESTAS_PK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:19:41 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C33454-B427-886F-AEFE-12B3921D0AAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC9E7B48-16B1-2153-86AB-FB98710462B0" name="TBL_APUESTAS_TBL_USUARIOS_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:19:56 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C3BDB82-7919-8416-4A66-8BE874782EE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E0D6E4B-7CD7-7A5F-D246-9BD8BB233A8A" name="TBL_APUESTAS_TBL_MODALIDADES_APUESTAS_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:20:05 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A83C00E-064C-A7AB-7231-0EDD0F4ACB61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D69457AF-3B3D-3E03-9378-8DC3377CAB01" name="TBL_APUESTAS_TBL_RESULTADO_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:20:40 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15C8C2F9-06BF-0057-AC87-EE175DAEB4A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5241A624-D547-CC62-3052-4159227B07F4" name="TBL_APUESTAS_TBL_FECHAS_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:20:57 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A642C92C-EB55-8794-61DF-0341BD9A8C71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83098F94-C9F2-1225-4006-0379390D005B" name="TBL_APUESTAS_TBL_EVENTOS_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:21:27 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0688B6F2-AF82-73DF-45FD-77C15CFB269A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="050BFFFC-7131-8CB8-6444-6813425E2CC3" name="TBL_GENEROS">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:06:49 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_GENEROS" id="D0B57F7A-8E27-6F9F-3755-3B15ACFEBFE7">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:07:39 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="5615F26C-1626-C2F5-DA48-130B7DC50A7F">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:07:39 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D1D7F57-F4C6-4465-C147-01DB48439489" name="TBL_GENEROS_PK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:07:39 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0B57F7A-8E27-6F9F-3755-3B15ACFEBFE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

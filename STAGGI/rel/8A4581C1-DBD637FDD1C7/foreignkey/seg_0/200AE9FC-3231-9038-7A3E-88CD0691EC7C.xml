@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="200AE9FC-3231-9038-7A3E-88CD0691EC7C" containerWithKeyObject="7143F264-56B8-2249-29F2-692014599796" localFKIndex="83098F94-C9F2-1225-4006-0379390D005B" name="TBL_APUESTAS_TBL_EVENTOS_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:21:27 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<referredTableLongName>TBL_EVENTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B8DDEFDA-C6F3-E0CD-0448-929A80518381</referredTableID>
+<keyObject>0E7E86AC-E4BB-EC24-6089-FE2A4FB55A9E</keyObject>
+<referredKeyID>0E7E86AC-E4BB-EC24-6089-FE2A4FB55A9E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_EVENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="39E45BE4-21C5-4D0E-59B4-BF7155F45FE6" containerWithKeyObject="EAE289B3-3E80-862D-873A-7C9035D64D40" localFKIndex="18F4B01D-E547-25D5-95D6-63C03A195A30" name="TBL_JUGADORES_TBL_GENEROS_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:08:43 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<referredTableLongName>TBL_GENEROS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>050BFFFC-7131-8CB8-6444-6813425E2CC3</referredTableID>
+<keyObject>9D1D7F57-F4C6-4465-C147-01DB48439489</keyObject>
+<referredKeyID>9D1D7F57-F4C6-4465-C147-01DB48439489</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_GENEROS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

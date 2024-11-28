@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="434A2627-0B5C-D3C5-B740-EF7F0A755CBA" name="TBL_FECHAS">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:54:42 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FECHA" id="FF2016C2-E2CD-0948-8902-D2B10756D2F5">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:56:09 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIA" id="D1F8DC09-1CDF-CE50-6554-4D67E5F55F12">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:56:09 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MES" id="AE1EC816-ADDA-8EC3-5E0C-6AF4B80D1947">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:56:09 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANIO" id="C9D6073B-3D6D-36CA-C368-5AF1EDA6D569">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:56:09 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_COMPLETA" id="7AB90A80-99C8-100A-E8D9-51A9AA859435">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:56:09 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91A35FDF-ADE6-F0C3-EAED-FB1919FE8E3F" name="TBL_FECHAS_PK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:56:09 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF2016C2-E2CD-0948-8902-D2B10756D2F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

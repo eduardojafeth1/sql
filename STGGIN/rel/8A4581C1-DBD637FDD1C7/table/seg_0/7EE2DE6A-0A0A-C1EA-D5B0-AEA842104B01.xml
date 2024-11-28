@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EE2DE6A-0A0A-C1EA-D5B0-AEA842104B01" name="TBL_TIPO_EVENTO">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:10:35 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO" id="E27AB70E-DACC-6039-E4AC-BAA1BCD01701">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:11:23 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="E429558B-3043-B245-8ACD-DD1804371FBD">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:11:23 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FC80B17-D023-1C21-2A8A-A4B77284F9BD" name="TBL_TIPO_EVENTO_PK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:11:23 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E27AB70E-DACC-6039-E4AC-BAA1BCD01701"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

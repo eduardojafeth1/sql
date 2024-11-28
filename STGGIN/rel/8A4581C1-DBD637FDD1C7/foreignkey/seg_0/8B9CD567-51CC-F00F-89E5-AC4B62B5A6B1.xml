@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8B9CD567-51CC-F00F-89E5-AC4B62B5A6B1" containerWithKeyObject="7143F264-56B8-2249-29F2-692014599796" localFKIndex="5241A624-D547-CC62-3052-4159227B07F4" name="TBL_APUESTAS_TBL_FECHAS_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:20:57 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<referredTableLongName>TBL_FECHAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>434A2627-0B5C-D3C5-B740-EF7F0A755CBA</referredTableID>
+<keyObject>91A35FDF-ADE6-F0C3-EAED-FB1919FE8E3F</keyObject>
+<referredKeyID>91A35FDF-ADE6-F0C3-EAED-FB1919FE8E3F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_FECHA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

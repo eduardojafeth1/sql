@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="984F780F-BA13-F64C-CA97-254A6EA82126" containerWithKeyObject="7143F264-56B8-2249-29F2-692014599796" localFKIndex="2E0D6E4B-7CD7-7A5F-D246-9BD8BB233A8A" name="TBL_APUESTAS_TBL_MODALIDADES_APUESTAS_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:20:05 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<referredTableLongName>TBL_MODALIDADES_APUESTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C6B12B7D-4B3A-609C-1CF6-7CE907FB48FA</referredTableID>
+<keyObject>13668094-A5A7-E4AE-48DD-5344FEB9F1F1</keyObject>
+<referredKeyID>13668094-A5A7-E4AE-48DD-5344FEB9F1F1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MODALIDADES_APUESTAS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

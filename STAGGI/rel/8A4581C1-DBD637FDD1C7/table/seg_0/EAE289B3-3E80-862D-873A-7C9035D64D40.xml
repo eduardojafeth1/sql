@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAE289B3-3E80-862D-873A-7C9035D64D40" name="TBL_JUGADORES">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:46:22 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_JUGADOR" id="87222CA9-39E6-BA9C-86D9-CFC488368695">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:47:08 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_JUGADOR" id="4BDAD222-76A1-FA84-BB40-D784737FC81A">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:47:08 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EDAD" id="2B5ED068-299A-67C5-B372-723130F0112C">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:48:09 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_4" id="FEB5D0FB-8FD5-78D7-E558-5E8AFEE52912">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:48:09 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSICION" id="8D3ADBDB-9057-40BF-5015-1078173C75A6">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:48:09 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQUIPO" id="76242DC6-69E7-F20C-631C-AA9CCB72C0EA">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:48:15 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C7BACA6-3106-3FDA-2F25-2C73B25F9496" referredColumn="95E96790-702F-67E3-CA40-F4E7429F3F60"/>
+</associations>
+</Column>
+<Column name="NACIONALIDAD" id="EC80681B-F559-D725-7B2C-97758CF62CB8">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:48:25 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7EAD3AF-6104-B1A8-FD69-31E1699C5A85" referredColumn="28B00A5C-0901-6026-4B5E-40BBEF489011"/>
+</associations>
+</Column>
+<Column name="GENERO" id="DA227838-887C-70E0-F207-FEB2029DF45C">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:08:43 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39E45BE4-21C5-4D0E-59B4-BF7155F45FE6" referredColumn="D0B57F7A-8E27-6F9F-3755-3B15ACFEBFE7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A51942F8-7EFC-0937-79E9-D024DA1D8253" name="TBL_JUGADORES_PK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:26:57 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87222CA9-39E6-BA9C-86D9-CFC488368695"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40D04A0C-EFCC-C75E-FDC9-F4EFE48D4666" name="TBL_JUGADORES_TBL_EQUIPOS_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:48:15 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76242DC6-69E7-F20C-631C-AA9CCB72C0EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABB978FB-51C2-8A8B-3788-E2B73C6A7AA3" name="TBL_JUGADORES_TBL_LOCACION_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:48:25 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC80681B-F559-D725-7B2C-97758CF62CB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18F4B01D-E547-25D5-95D6-63C03A195A30" name="TBL_JUGADORES_TBL_GENEROS_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:08:43 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA227838-887C-70E0-F207-FEB2029DF45C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

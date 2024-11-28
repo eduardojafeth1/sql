@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="STGGIN" id="9203CCDB-6131-1D9F-AEB7-678C9EB84030" version="3.5">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:32:03 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9203CCDB-6131-1D9F-AEB7-678C9EB84030</designId>
+</OSDM_Design>

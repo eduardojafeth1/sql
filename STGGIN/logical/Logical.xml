@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="591E567B-558F-6A05-B087-EBD867C43259" mainViewID="2443164E-2DF5-476D-7652-19128916B0D6">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:32:04 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

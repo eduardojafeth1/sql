@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E22D9D60-0CE2-3B15-EB5F-1169C8488F57" name="TBL_EQUIPOS">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:42:25 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EQUIPO" id="95E96790-702F-67E3-CA40-F4E7429F3F60">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:43:52 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBE_EQUIPO" id="DB8C9BE1-A635-05A7-D9E2-16C2C76E4259">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:43:52 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LUGAR_ORIGEN" id="3C785824-EF72-F399-BB56-9DA12421C39D">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:32:00 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBE68127-2984-4CD3-E2EF-F5DDD84227CE" referredColumn="28B00A5C-0901-6026-4B5E-40BBEF489011"/>
+</associations>
+</Column>
+<Column name="DEPORTE" id="4E21EE33-D58F-7C20-1C24-BAD42BD91D82">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 12:46:15 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B20C1351-FAC9-9890-12C7-7E953CB4838C" referredColumn="ADDEC653-9FB6-7F4D-1969-33D320DF7BC6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="006C36BB-76C3-A17F-EEAB-3804EA37B31B" name="TBL_EQUIPOS_PK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:43:52 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95E96790-702F-67E3-CA40-F4E7429F3F60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A382A2D8-57D1-7A95-C6E2-0F3CB23BDB6A" name="TBL_EQUIPOS_TBL_LOCACION_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:32:00 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C785824-EF72-F399-BB56-9DA12421C39D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC0CCF53-7E90-D479-7A36-317D94110E46" name="TBL_EQUIPOS_TBL_DEPORTES_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 12:46:15 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E21EE33-D58F-7C20-1C24-BAD42BD91D82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48043E4E-56BA-FF51-EF1B-2E94DAD08193" name="TBL_ESTADISTICAS_JUGADOR">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:22:15 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTDISTICA" id="C4341916-B183-0E74-C4CB-E521C39F5142">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:25:55 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUNTOS" id="2A6AC430-9367-4761-826E-D570D0D0BF3B">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:25:55 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASISTENCIAS" id="FC7BB8BE-1DAE-C2C6-D9BB-D9F0537D8940">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:25:55 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FALTAS" id="26779929-BA59-77AD-B1CF-C6A539A156C8">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:25:55 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUNTOS_1" id="ACE71D05-AA53-59E3-069D-BA66E1A30CA6">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:26:39 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MINUTOS_JUGADOS" id="E0856018-6803-75C8-0A1B-7598990A9491">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:26:39 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_JUGADORES_ID_JUGADOR" id="782816EB-BBD5-9370-5291-0ADC042E3B1F">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:27:03 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A580E77-F522-7D43-D414-5427803747F9" referredColumn="87222CA9-39E6-BA9C-86D9-CFC488368695"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA8563FE-7C51-3E82-75FE-FD35F6F1C710" name="TBL_ESTADISTICAS_JUGADOR_PK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:25:55 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4341916-B183-0E74-C4CB-E521C39F5142"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="598511A1-05EE-778F-D68B-E41C28997BA5" name="TBL_ESTADISTICAS_JUGADOR_TBL_JUGADORES_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:27:03 UTC</createdTime>
+<ownerDesignName>STAGGI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="782816EB-BBD5-9370-5291-0ADC042E3B1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

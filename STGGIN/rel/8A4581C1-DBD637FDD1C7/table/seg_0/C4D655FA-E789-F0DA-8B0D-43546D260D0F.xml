@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4D655FA-E789-F0DA-8B0D-43546D260D0F" name="TBL_USUARIOS">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:51:32 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIOS" id="8FD80D3F-23BF-371C-9638-16FCF7CA4FF8">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:52:27 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="8E4AC87D-AD5F-E4CB-C784-E5290C4B9E4E">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:52:27 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCALIZACION" id="9A27B6C2-6328-27D0-6127-F31470EFCE63">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:53:06 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AC12D6E-5931-08F9-7F54-559FCD71C538" referredColumn="28B00A5C-0901-6026-4B5E-40BBEF489011"/>
+</associations>
+</Column>
+<Column name="GENERO" id="0DB8C0F7-3ECC-1AA5-E8F5-006A5AA61710">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:08:37 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83C13008-F4D6-C580-F09E-1DE7C0C8B683" referredColumn="D0B57F7A-8E27-6F9F-3755-3B15ACFEBFE7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC0DCC5D-6CB3-5CBF-6D41-71EFC2FF2DF6" name="TBL_USUARIOS_PK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:52:27 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FD80D3F-23BF-371C-9638-16FCF7CA4FF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="287619BE-BAE0-CA8A-4E39-2F2EE4A47B57" name="TBL_USUARIOS_TBL_LOCACION_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 06:53:06 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A27B6C2-6328-27D0-6127-F31470EFCE63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EA416D7-81E6-98B1-31DE-BD13147AA281" name="TBL_USUARIOS_TBL_GENEROS_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:08:37 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DB8C0F7-3ECC-1AA5-E8F5-006A5AA61710"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

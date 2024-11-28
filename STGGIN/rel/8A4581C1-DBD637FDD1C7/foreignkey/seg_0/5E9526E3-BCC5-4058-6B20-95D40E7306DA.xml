@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5E9526E3-BCC5-4058-6B20-95D40E7306DA" containerWithKeyObject="7143F264-56B8-2249-29F2-692014599796" localFKIndex="EC9E7B48-16B1-2153-86AB-FB98710462B0" name="TBL_APUESTAS_TBL_USUARIOS_FK">
+<createdBy>bedlam</createdBy>
+<createdTime>2024-11-28 07:19:56 UTC</createdTime>
+<ownerDesignName>STGGIN</ownerDesignName>
+<referredTableLongName>TBL_USUARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C4D655FA-E789-F0DA-8B0D-43546D260D0F</referredTableID>
+<keyObject>CC0DCC5D-6CB3-5CBF-6D41-71EFC2FF2DF6</keyObject>
+<referredKeyID>CC0DCC5D-6CB3-5CBF-6D41-71EFC2FF2DF6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_USUARIOS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
